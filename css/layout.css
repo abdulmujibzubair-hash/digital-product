@@ -471,6 +471,24 @@ header h1 {
 }
 
 
+/* order button */
+.order-btn {
+    display: inline-block;
+    background: darkgreen;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.order-btn:hover{
+    background: springgreen;
+    transform: translateY(-3px);
+}
+
+
 /* Responsive */
 @media (max-width: 768px) {
   .product-container {
