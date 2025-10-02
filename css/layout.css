@@ -3,16 +3,16 @@
     padding: 0px;
 }
 
-/* body{ */
-    /* min-height: 800px;
+.body{
+    min-height: 800px;
     border: 8px solid black;
     display: flex;
     justify-content: flex-start;
     border: 1px solid black;
     background-color: black;
     align-items: flex-start;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-/* } */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 .card-container{
     display: flex;
@@ -22,7 +22,6 @@
 }
 
 
-
 .box{
     display: flex;
     align-items: flex-end;
@@ -30,9 +29,9 @@
     flex-direction: row;
     height: 50px;
     width: 260px;
-    border: 1px solid black;
+    border: 0px solid black;
     font-size: 15pt;
-     animation: fadeIn 0.6s ease-in-out;
+    animation: fadeIn 0.6s ease-in-out;
 }
 
 
@@ -54,12 +53,15 @@
 }
 
 .info{
-    height: 500px;
-    width: 550px;
+    height: auto;
+    width: 100%;
+    max-width: 550px; 
     border: 0px solid black;
     background-color: blueviolet;
     text-align: center;
-    padding: 110px;
+    padding: 125px;
+    margin: 10px auto;
+    box-sizing: border-box;
 }
 
  .info button{
@@ -83,8 +85,11 @@ h5 {
 
 
 .info1{
-    height: 500px;
-    width: 720px;
+    height: auto;
+    width: 100%;
+    max-width: 550px;
+    margin: 10px auto;
+    box-sizing: border-box;
     border: 0px solid black;
 }
 
@@ -95,15 +100,18 @@ h5 {
   .info {
     display: flex;
     flex-direction: column;
-    max-width: 100%;
-    font-size: small;
+    max-width: 95%;
+    font-size: 16px;
     height: auto;
-    margin-left: 0px;
+    margin: 10px auto;
+    padding: 20px 5px;
   }
 
   .info1 {
-    max-width: auto;
+    max-width: 95%;
     height: auto;
+    margin: 10px auto;
+
   }
 
   .box{
@@ -119,6 +127,7 @@ h5 {
   .card-container{
     width: auto;
   }
+  
   .box1{
     width: auto;
     height: auto;
